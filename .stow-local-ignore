@@ -1,0 +1,29 @@
+# RCS directories
+^\.+,v$
+
+# CVS directories and conflict files
+^\.#.+$
+^\.cvsignore$
+
+# Subversion directories
+^\.svn$
+
+# Darcs directories
+^_darcs$
+
+# Mercurial directories
+^\.hg$
+
+# Git directories and related files
+^\.git$
+^\.gitignore$
+^\.gitmodules$
+
+# Emacs backup and autosave files
+.+~$
+^#.*#$
+
+# Common documentation files
+^README.*$
+^LICENSE.*$
+^COPYING$
